@@ -26,9 +26,3 @@ A fork of Gemini.  The theme for this poster template is inspired by the Univers
    highly recommended)
 
 1. Run `make` to build your poster
-
-## FAQ
-
-See the [FAQ] in the Wiki for answers to frequently asked questions such as how
-to add an institution logo to the poster.
-
