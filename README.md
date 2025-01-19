@@ -1,9 +1,10 @@
-# Unofficial Poster Template for University of Cambridge
- [![Overleaf Template](https://img.shields.io/badge/Overleaf-Template-success?logo=overleaf)](https://www.overleaf.com/latex/templates/unofficial-poster-template-for-uchicago-computer-science/kbbmbdxwbypb)
+# Unofficial Poster Template for University of Pennsylvania
+ 
+A fork of Gemini.  The theme for this poster template is inspired by the University of Pennsylvania’s official logos and branding guidelines. It incorporates the colors, typography, and visual style outlined in the Penn Branding Guidelines. The design is tailored to ensure alignment with Penn’s visual identity, making it suitable for use in official or academic settings associated with the university.
 
-A fork of Gemini. Also available on Overleaf.
 
-![gemini_cam](https://user-images.githubusercontent.com/11074066/199757993-851d5934-b7d5-4805-a666-704cc9b7c799.png)
+![Poster_Template_for_UPenn-1](https://github.com/user-attachments/assets/dbf831a7-6094-4133-ace4-549ebc942d61)
+
 
 ## Dependencies
 
