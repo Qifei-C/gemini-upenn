@@ -1,5 +1,7 @@
-% Gemini theme
-% https://github.com/anishathalye/gemini
+% Unofficial UPenn Poster Template
+% https://github.com/Qifei-C/gemini-upenn
+% a fork of https://github.com/anishathalye/gemini
+% also refer to https://github.com/andiac/gemini-cam
 
 \documentclass[final]{beamer}
 
@@ -11,9 +13,10 @@
 \usepackage{lmodern}
 \usepackage[size=custom,width=120,height=72,scale=1.0]{beamerposter}
 \usetheme{gemini}
-\usecolortheme{gemini}
+\usecolortheme{penn}
 \usepackage{graphicx}
 \usepackage{booktabs}
+\usepackage[numbers]{natbib}
 \usepackage{tikz}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.14}
@@ -65,6 +68,17 @@
 % ====================
 
 \begin{document}
+
+% Refer to https://github.com/k4rtik/uchicago-poster
+% logo: https://branding.web-resources.upenn.edu/logos-and-branding/download-penn-logos
+
+\addtobeamertemplate{headline}{}
+{
+    \begin{tikzpicture}[remember picture,overlay]
+      \node [anchor=north west, inner sep=3cm] at ([xshift=0.0cm,yshift=1.0cm]current page.north west)
+      {\includegraphics[height=4.5cm]{logos/UPenn-white-logo.eps}}; 
+    \end{tikzpicture}
+}
 
 \begin{frame}[t]
 \begin{columns}[t]
@@ -171,8 +185,12 @@
     molestie ut orci nec malesuada. Sed ultricies feugiat est fringilla
     posuere.
 
-    \begin{figure}
-      \centering
+\vspace{1em}
+
+\begin{columns}
+\begin{column}{0.4\textwidth}
+\begin{center}
+      \begin{figure}
       \begin{tikzpicture}
         \begin{axis}[
             scale only axis,
@@ -188,6 +206,14 @@
       \end{tikzpicture}
       \caption{Another figure caption.}
     \end{figure}
+   \end{center}
+\end{column}
+\begin{column}{0.6\textwidth}  %%<--- here
+\justify
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel dapibus erat. Morbi quis leo congue, lobortis augue bibendum, malesuada neque. Duis ullamcorper quis orci sed consequat. Nam pellentesque ullamcorper tempor. Duis eget nulla blandit, vulputate orci vitae, ullamcorper ligula. Mauris a urna ac massa dignissim scelerisque sed et augue. Donec eget urna vitae neque elementum pellentesque et eget enim. Praesent a fermentum nibh. Nullam eu nibh neque. 
+\end{column}
+\end{columns}
+
 
   \end{block}
 
@@ -300,7 +326,7 @@
   \begin{block}{References}
 
     \nocite{*}
-    \footnotesize{\bibliographystyle{plain}\bibliography{poster}}
+    \footnotesize{\bibliographystyle{plainnat}\bibliography{poster}}
 
   \end{block}
 

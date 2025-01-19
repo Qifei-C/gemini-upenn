@@ -1,7 +1,9 @@
-# Unofficial Poster Template for University of Pennslyvania
+# Unofficial Poster Template for University of Cambridge
+ [![Overleaf Template](https://img.shields.io/badge/Overleaf-Template-success?logo=overleaf)](https://www.overleaf.com/latex/templates/unofficial-poster-template-for-uchicago-computer-science/kbbmbdxwbypb)
 
-A fork of Gemini. Gemini is a modern LaTeX [beamerposter] theme.
+A fork of Gemini. Also available on Overleaf.
 
+![gemini_cam](https://user-images.githubusercontent.com/11074066/199757993-851d5934-b7d5-4805-a666-704cc9b7c799.png)
 
 ## Dependencies
 
@@ -24,16 +26,8 @@ A fork of Gemini. Gemini is a modern LaTeX [beamerposter] theme.
 
 1. Run `make` to build your poster
 
-## License
+## FAQ
 
-Copyright (c) Anish Athalye. Released under the MIT License. See
-[LICENSE.md][license] for details.
+See the [FAQ] in the Wiki for answers to frequently asked questions such as how
+to add an institution logo to the poster.
 
-[beamerposter]: https://github.com/deselaers/latex-beamerposter
-[Auriga]: https://github.com/anishathalye/auriga
-[LuaTeX]: http://www.luatex.org/
-[CTAN]: https://ctan.org/
-[Raleway]: https://www.fontsquirrel.com/fonts/raleway
-[Lato]: https://www.fontsquirrel.com/fonts/lato
-[license]: LICENSE.md
-[FAQ]: https://github.com/anishathalye/gemini/wiki/FAQ
