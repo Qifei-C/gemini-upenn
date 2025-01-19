@@ -1,6 +1,8 @@
 # Unofficial Poster Template for University of Pennsylvania
  
-A fork of Gemini.  The theme for this poster template is inspired by the University of Pennsylvania’s official [logos and branding guidelines](https://branding.web-resources.upenn.edu/logos-and-branding). It incorporates the colors, typography, and visual style outlined in the Penn Branding Guidelines. The design is tailored to ensure alignment with Penn’s visual identity, making it suitable for use in official or academic settings associated with the university.
+A fork of [Gemini](https://github.com/anishathalye/gemini).  
+
+The theme for this poster template is inspired by the University of Pennsylvania’s official [logos and branding guidelines](https://branding.web-resources.upenn.edu/logos-and-branding). It incorporates the colors, typography, and visual style outlined in the Penn Branding Guidelines. The design is tailored to ensure alignment with Penn’s visual identity, making it suitable for use in official or academic settings associated with the university.
 
 
 ![Poster_Template_for_UPenn-1](https://github.com/user-attachments/assets/dbf831a7-6094-4133-ace4-549ebc942d61)
